@@ -1,0 +1,24 @@
+.Link {
+    background: none!important;
+    border: none;
+    /* padding: 0!important; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: #fec93b;
+    /* text-decoration: underline; */
+    cursor: pointer;
+    border: #fec93b;
+    border-style: dotted;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+.Text {
+    color: #fec93b;
+}
+
+.Simple {
+    border: #fec93b;
+    border-style: dotted;
+    padding: 2%;
+}
