@@ -11,6 +11,9 @@ const nodeEndpoints = {
     public: "https://testnet02.vechain.de.blockorder.net"
 }
 
+const source = "http://34.125.171.95:3000/"
+
 module.exports = { 
-    nodeEndpoints 
+    nodeEndpoints,
+    source
 }
