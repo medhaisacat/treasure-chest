@@ -23,5 +23,9 @@ Run ```docker-compose up``` to sweetly get the entire module up and running.
 
 You are expected to connect to the sender wallet using a **private key**. Please make sure you have that handy!
 
+# DEMO #
+
+ http://34.125.171.95:3000/ "Click here"
+
 
 
