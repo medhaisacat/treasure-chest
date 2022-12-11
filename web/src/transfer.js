@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './transfer.css'
+import backendServerAddress from './constants';
 
 function TransferForm() {
   const [privateKey, setPrivateKey] = useState('');
@@ -15,7 +16,7 @@ function TransferForm() {
     axios({
   
       // Endpoint to send files
-      url: "http://localhost:8080/transactions",
+      url: backendServerAddress + "/transactions",
       method: "POST",
       data: {
         privateKey: privateKey,
